@@ -1,7 +1,7 @@
 name: ci-actions
 on:
   push:
-    branches: master
+    branches: main
 jobs:
   build:
     runs-on: ubuntu-latest
