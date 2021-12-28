@@ -59,7 +59,7 @@ func Handler(
 
 	r.Use(cors.New(cors.Options{
 		AllowCredentials: true,
-		AllowedOrigins:   []string{"http://localhost:3000", "http://127.0.0.1:3000", "https://app.mailent.com", "https://mailent.com"},
+		AllowedOrigins:   []string{"http://localhost:3000", "http://127.0.0.1:3000", "https://pm.tuanpa.me"},
 		AllowedHeaders:   []string{"*"},
 		AllowedMethods:   []string{"HEAD", "GET", "POST", "PATCH", "DELETE"},
 		Debug:            false,
